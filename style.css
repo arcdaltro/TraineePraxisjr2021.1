@@ -1,0 +1,10 @@
+#navbar {
+width: 100%;
+display:flex;
+justify-content: space-between;
+background-color: #1488f2;
+}
+#nav-list{
+    color: #fff;
+}
+
