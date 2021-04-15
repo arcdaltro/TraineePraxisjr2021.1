@@ -10,15 +10,60 @@ display: flex;
 justify-content: space-between;
 background-color: #1488f2;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar h4{
+    color: #fff;
+}
 body{
-    background-color: #2C5073;
+    background-color: #1488f2;
 }
 #navlist{
-    color: #fff;
-    width: 100%;
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
-
+#navlist {
+    text-decoration: none;
+    color: #fff;
+}
+.navlistmargin a{
+    margin-right: 1.3rem;
+}
+#sobre{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 85vh;
+    background-color: #fff;
+}
+.sobrepainel{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+color: #fff;
+background-color: #2C5073;
+height: 65%;
+}
+.sobrepainel h2{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: initial;
+}
+.sobrepainel p{
+    width: 65%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.sobrepainel hr{
+    margin-bottom: 1.5rem;
+    background-color: #dac509;
+    border: none;
+    height: 0.2vh;
+    width: 10%;
+}
