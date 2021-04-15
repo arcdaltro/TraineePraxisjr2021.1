@@ -13,7 +13,7 @@ display: flex;
 justify-content: space-between;
 background-color: #1488f2;
 }
-input textarea, p, a{
+ p, a{
     font-family: 'Barlow', sans-serif;
 }
 h1, h2, h3, h4, h5{
@@ -82,8 +82,4 @@ height: 65%;
     border: none;
     height: 0.2vh;
     width: 10%;
-}
-.sobrepainel a{
-    margin-bottom: 0.5rem;
-    font-size: 2rem;
 }
