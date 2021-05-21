@@ -1,0 +1,158 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montez&family=Montserrat&display=swap);
+
+
+
+#form01 legend, #textf, #form01 form section, #form01 form button{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+#bodyfback{
+    background-color: #f2f9f3;
+}
+#form01 legend{
+    color:#1a2a20;
+    display: flex;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+ 
+.linef01{
+    height: 0.6vh;
+    background-color: #e4e4e4;
+    width: 60rem;
+    margin-left: 12rem;
+    border-radius: 50%;
+    margin-top: 1.5rem;
+}
+  #form01 form div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 35vh;
+    margin-top: 3rem;
+  }   
+#textf{
+    color: #1a2a20;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    height: 35vh;
+    margin-top: 6.5vh;
+    margin-left: 30vh;
+} 
+
+#form01 form div input{
+    
+    width: 20vw;
+    height: 6vh;
+    border:3px solid #1a2a20;  
+}
+#form01 form div{
+    
+margin-top: -35vh;
+    
+}
+
+#form01 form section{
+
+    margin-left: 30vh;
+
+    margin-top: 7vh;
+}
+#form01 form textarea{
+    width: 70%;
+    height: 15vh;
+    border: 3px solid #1a2a20;
+    background: none;
+    color: #000;
+    resize: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30vh;
+    margin-top: 5vh;   
+  }  
+
+#form01 form button{
+    margin-top: 2rem;
+    margin-left: 85vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    width: 18vw;
+    height: 7vh;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #1a2a20;
+    transition: 300ms;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    font-weight: bold;
+    text-decoration: none;
+  
+      }    
+  
+#form01 form button:hover{
+    transition:300ms;
+    background-color: #bdffc5;
+    cursor: pointer;
+    color:#1a2a20 ;
+    text-decoration: none;
+
+}
+
+@media only screen and (max-width: 450px) and (max-height: 740px) {
+    
+   #form01 legend{
+    margin-left: 16rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.linef01{
+   opacity: 0%;
+}
+  #textf{
+    height: 35vh;
+    margin-top: 6.5vh;
+    margin-left: 26vh;
+} 
+
+#form01 form div input{ 
+    width: 45vw;
+    height: 6vh;
+    margin-left: 25rem;
+}
+
+#form01 form section{
+    margin-left: 25.5vh;
+    margin-top: 7vh;
+}
+
+#form01 form textarea{
+    width: 75%;
+    height: 20vh;
+    margin-left: 30vh;
+    margin-top: 3vh;
+  }  
+
+#form01 form button{
+    margin-top: 0.6rem;
+    margin-left: 59vh;
+    width: 23vw;
+    font-size: 0.8rem;
+ }
+      
+}
